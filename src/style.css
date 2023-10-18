@@ -1,0 +1,7 @@
+.primary{
+    color: blue;
+    margin: 0;
+}
+.navbar ul li .active{
+    color: skyblue;
+}

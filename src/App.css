@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* card directory css */
+.card-container {
+  padding: 10px;
+  border: 1px solid #222;
+  width: 600px;
+  margin: auto;
+}
+.card-container h5 {
+  text-align: center;
+}
+
+.card-block {
+  background-color: #a1ccd8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.card-block p span {
+  float: right;
+}
+.card-block-details {
+  width: 600px;
+  border: 1px solid #222;
+  height: auto;
+  position: absolute;
+  top: 350px;
+  display: block;
+  padding: 10px 15px;
+}
+.card-details-header .back-button {
+  float: left;
+  background-color: #a1ccd8;
+  border: none;
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-details-header span {
+  color: #fff;
+  padding: 10px 15px;
+  background: #222;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card-details-header .pause-button {
+  float: right;
+  background-color: #9ed69e;
+  border: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.card-block-details h4 {
+  text-align: center;
+}
+.user-block {
+  border: 1px solid #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.user-name-block p {
+  margin: 0px;
+}
+.user-address-block p {
+  margin: 0px;
+}
+.user-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+.user-content-block {
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+}
+.user-content-block p {
+  text-align: center;
+}
